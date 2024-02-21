@@ -16,9 +16,14 @@ public class ArrayToList {
 
         System.out.println("******************");
         List<String> list = new ArrayList<>();
-        list.add(Arrays.toString(stack));
-        for (String li : list){
-            System.out.println(li);
+//        list.add(Arrays.toString(stack));
+//        for (String li : list){
+//            System.out.println(li);
+//        }
+
+        for (String s : stack){
+            list.add(s);
         }
+        System.out.println("List " + list);
     }
 }
